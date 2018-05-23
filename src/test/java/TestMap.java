@@ -1,8 +1,8 @@
-import lyx.demo.hashmap.HashMap;
-import lyx.demo.hashmap.Map;
+import com.kolly.hashmap.HashMap;
+import com.kolly.hashmap.Map;
 
 /**
- * Created by landyChris on 2017/10/29.
+ * Created by kolly on 2017/10/29.
  */
 public class TestMap {
 
