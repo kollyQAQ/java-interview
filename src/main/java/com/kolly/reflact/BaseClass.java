@@ -11,6 +11,8 @@ import java.lang.reflect.Method;
  */
 public class BaseClass {
 
+    public static final String str = "123";
+
     public void test() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         Method method = this.getClass().getMethod("getFieldOrderId", String.class);
         System.out.println(method.invoke(this, "ttt"));

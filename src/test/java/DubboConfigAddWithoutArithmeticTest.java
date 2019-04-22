@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:META-INF/kolly-consumer.xml")
-public class DubboConfigTest {
+public class DubboConfigAddWithoutArithmeticTest {
 
     @Autowired
     private MenuService menuService;

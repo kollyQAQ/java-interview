@@ -34,6 +34,7 @@ public class MultithreadCalculator implements Calculator {
             this.to = to;
         }
 
+        @Override
         public Long call() throws Exception {
             long total = 0L;
             for (int i = from; i < to; i++) {
